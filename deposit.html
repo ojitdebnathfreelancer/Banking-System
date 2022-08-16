@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deposit wiht cash</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section id="depoist-main">
+        <div class="container depostin-container">
+            <div class="row">
+                <div class="col-lg12">
+                    <div class="head text-center text-white">
+                        <h1 class="pt-5">Bank of <span class="text-info">Bangladesh</span></h1>
+                    </div>
+                </div>
+            </div>
+            <!-- row tow starts  -->
+            <div class="row mt-lg-5">
+                <div class="col-lg-4">
+                    <div class="deposit-box bg1">
+                        <h2>Deposit</h2>
+                        <p>$ <span id="deposit-add">00</span></p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="deposit-box bg2">
+                        <h2>witdraw</h2>
+                        <p>$ <span id="withdraw-balance">00</span></p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="deposit-box bg3">
+                        <h2>Balance</h2>
+                        <p>$ <span id="main-balance">1240</span></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-lg-5">
+                <div class="col-lg-6">
+                    <div class="deposit-amount bgc1">
+                        <h1>Your Deposit</h1>
+                        <input id="deposit-amount" type="text" placeholder="$ You want to deposit">
+                        <div><button id="deposit-btn">Deposit</button></div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="deposit-amount bgc2">
+                        <h1>Your witdraw</h1>
+                        <input id="withdraw-amount" type="text" placeholder="$ You want to witdraw">
+                        <div><button id="withdraw-btn">Withdraw</button></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="bootstrap.bundle.min.js"></script>
+    <script src="diposit.js"></script>
+</body>
+
+</html>

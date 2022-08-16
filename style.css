@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#login-main-container,
+#depoist-main{
+    height: 100vh;
+    background-color: rgba(24, 6, 47, 0.858);
+}
+
+#login-main-container .head{
+    height: 20%;
+}
+
+#login-main-container .box-container{
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#login-main-container .box-container .login-box{
+    height: 300px;
+    padding: 20px;
+    background-color: rgb(165, 42, 112);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
+#login-main-container .box-container .login-box input{
+    width: 100%;
+    margin-top: 15px;
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+#login-main-container .box-container .login-box button{
+    background-color: rgb(67, 4, 78);
+    padding: 5px 20px;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    color:white;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+/* login page css ends  */
+
+.depostin-container .deposit-box{
+    color: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.depostin-container .deposit-box.bg1{
+    background-color: #e18b22d5;
+}
+
+.depostin-container .deposit-box.bg2{
+    background-color: #11cce0d5;
+}
+
+.depostin-container .deposit-box.bg3{
+    background-color: #cb17c5d5;
+}
+
+.depostin-container .deposit-box h2{
+    font-weight: bold;
+    font-size:48px;
+}
+
+.depostin-container .deposit-box p{
+    font-weight: bold;
+    font-size:38px;
+}
+
+.depostin-container .deposit-amount{
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.depostin-container .deposit-amount.bgc1{
+    background-color: rgba(66, 122, 175, 0.92);
+}
+
+.depostin-container .deposit-amount.bgc2{
+    background-color: rgba(133, 210, 40, 0.92);
+}
+
+.depostin-container .deposit-amount input{
+    width: 70%;
+    border: none;
+    outline: none;
+    padding: 10px 5px;
+    border-radius: 10px;
+    margin: 10px 0px;
+}
+
+.depostin-container .deposit-amount h1{
+    font-weight: bold;
+    font-size: 48px ;
+    color: white;
+}
+
+.depostin-container .deposit-amount button{
+    border: none;
+    outline: none;
+    background-color: rgba(0, 0, 255, 0.858);
+    color: white;
+    font-weight: bold;
+    padding: 5px 15px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
